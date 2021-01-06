@@ -1,0 +1,10 @@
+.MuiButton-root.signOut{
+    box-shadow: none;
+    color: white;
+    background-color: #8cca94;
+    position: absolute;
+    right: 20px;
+    font-size: 1rem;
+    top: 20px;
+}
+

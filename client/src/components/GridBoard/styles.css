@@ -1,0 +1,17 @@
+.grid {
+    margin: 40px auto;
+    width: fit-content;
+    /* transform: scale(0.5, 0.5); */
+}
+  
+.grid_row{
+    height: 28px;
+}
+
+.MuiPaper-root.gridBoard{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1px;
+    /* transform: scale(0.5, 0.5);  */
+}

@@ -1,0 +1,60 @@
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.image-form {
+  text-align: center;
+}
+
+.image-form__field {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.MuiButton-root.image-form__submit-button {
+  background-color: #457474;
+}
+
+.image-form__message--success {
+  color: green;
+}
+
+.image-form__message--error {
+  color: red;
+}
+
+.MuiButton-root.image-list__button {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.MuiCardMedia-root.image__card-media {
+  height: 300px;
+  background-position: inherit;
+}
+
+.MuiCardActions-root.image__card-actions {
+  justify-content: center;
+}
+
+.app {
+  padding: 20px;
+}
+
+.app__input .MuiInput-underline:after {
+  border-color: darkslategray;
+}
+
+.app__input .MuiFormLabel-root,
+.app__input .MuiFormLabel-root.Mui-focused {
+  color: darkslategray;
+}
+
+.MuiTextField-root.app__horizontal-center,
+.MuiButton-root.app__horizontal-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

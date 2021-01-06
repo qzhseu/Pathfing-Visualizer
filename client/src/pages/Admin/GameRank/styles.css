@@ -1,0 +1,23 @@
+.MuiCardMedia-img.cardImage{
+    height: 140px;
+}
+
+.MuiPaper-root.paper_ranks {
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #eef9f0;
+}
+
+.MuiGrid-root.Grid_allEle_container{
+    justify-content: center;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.MuiCard-root.card{
+    min-height: 20vw;
+}

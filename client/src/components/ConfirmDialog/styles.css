@@ -1,0 +1,78 @@
+.dialogImg{
+    width: 300px;
+    height: 200px;
+}
+
+.MuiIconButton-root.closeButton{
+    position: absolute; 
+    width: 10px;
+    height: 10px;
+    top: 0px; 
+    right: 0px
+}
+
+.MuiDialogTitle-root{
+    height: 10px;
+}
+.MuiDialogContentText-root.dialogContent{
+    width: 350px;
+    text-align: center;
+}
+
+.MuiDialogContent-root.dialogContent{
+    text-align: center;
+}
+
+.MuiDialogContent-root.dialogContent_Img{
+    background-color: #69818d;
+}
+
+
+
+.dialog .MuiDialog-paper{
+    padding: 20px;
+    position: 'absolute';
+    
+}
+
+.MuiDialogActions-root.dialogActions{
+    justify-content: center;
+}
+
+.MuiDialogActions-root.dialogButtonGroup button{
+    background-color: #8cca94; 
+    border: 1px solid green; 
+    color: white; 
+    margin: 0 auto;
+    margin-top: 10px;
+    /* border-radius: 5px; */
+    padding: 10px 10px; 
+    cursor: pointer; 
+    display: block; 
+}
+
+.MuiDialogActions-root.dialogButtonGroup button:hover {
+    background-color: #3e8e42;
+  }
+
+
+.tutorialRoot {
+    max-width: 700px;
+    flex-grow: 1;
+}
+
+.tutorialHeader{
+    display: 'flex';
+    align-items: 'center';
+    height: 100px;
+    padding-left: 4px;
+    background-color: rgb(175, 169, 169);
+}    
+
+.tutorialImg {
+    height: 330px;
+    max-width: 560px;
+    overflow: 'hidden';
+    display: 'block';
+    width: '100%';
+}

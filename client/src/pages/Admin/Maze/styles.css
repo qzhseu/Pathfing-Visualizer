@@ -1,0 +1,26 @@
+.MuiCardMedia-img.cardImage{
+    height: 250px;
+}
+
+.MuiPaper-root.paper_mazes {
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+    background-color: #eef9f0;
+}
+
+.MuiGrid-root.Grid_allEle_container{
+    justify-content: center;
+}
+
+.MuiButton-root.addMaze{
+    box-shadow: none;
+    color: white;
+    background-color: #8cca94;
+    display: inline-flex;
+    left: 30%;
+    font-size: 1rem;
+    margin: 0px 50px;
+}

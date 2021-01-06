@@ -1,0 +1,26 @@
+.workPanel{
+    text-align: center;
+    height: max-content;
+}
+
+.workPanel_row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nodemeaning_item{
+    text-align: center;
+}
+
+.NodeMeaning_Name{
+    font-size: large;
+    font-weight: bold;
+    color: #34415a;
+}
+
+.algorithmNotice{
+    position: relative;
+    left: 33%;
+    color: red;
+}
+

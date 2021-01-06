@@ -1,0 +1,28 @@
+.smgrid {
+    margin-left: 0.5%;
+}
+  
+.smgrid_row{
+    height: 10.5px;
+}
+
+.smnode {
+    width: 10.5px;
+    height: 10.5px;
+    margin-top: 0;
+    outline: 0.5px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+  
+.smnode-finish {
+    background-color: rgb(228, 187, 194);
+}
+  
+.smnode-start {
+    background-color: rgb(148, 99, 148);
+}
+
+.smnode-wall {
+    background-color: rgb(12, 53, 71);
+    
+  }

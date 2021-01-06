@@ -1,0 +1,186 @@
+.node {
+  width: 25px;
+  height: 25px;
+  margin-top: 0;
+  outline: 0.5px solid rgb(175, 216, 248);
+  display: inline-block;
+}
+
+.node-finish {
+  background-color: rgb(228, 187, 194);
+}
+
+.node-start {
+  background-color: rgb(148, 99, 148);
+}
+
+.node-road {
+  background-color: #d3ee95;
+}
+
+
+.node-visited {
+  animation-name: visitedAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+  0% {
+    /* background-color: #c1ffd8c2; */
+    background-color: #ffac31;
+  }
+
+  25% {
+    transform: scale(0.2);
+    background-color: #a4d7e2c7;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: #8ab5e9d1
+  }
+
+  75% {
+    transform: scale(1.3);
+    background-color: #7097f0e3
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #4c65fa
+  }
+}
+
+.node-wall {
+  background-color: rgb(13, 52, 74);
+}
+
+
+.node-shortest-path {
+  animation-name: shortestPath;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes shortestPath {
+  0% {
+    transform: scale(0.5);
+    background-color: #fcfc51;
+  }
+
+  50% {
+    transform: scale(1.3);
+    background-color:  #fcfc51;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color:  #fcfc51;
+  }
+}
+
+.node-userselected-path{
+  animation-name: SelectedPath;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes SelectedPath {
+  0% {
+    transform: scale(0.5);
+    background-color:  #5fbe77;
+  }
+
+  50% {
+    transform: scale(1.3);
+    background-color:  #5fbe77;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color:  #5fbe77;
+  }
+}
+
+.node-common-path-horizontal{
+  animation-name: CommonPath_Horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  
+}
+
+.node-common-path-horizontal-hover{
+  background: linear-gradient( #5fbe77 50%, #fcfc51 50%);
+}
+
+@keyframes CommonPath_Horizontal {
+  0% {
+    transform: scale(0.5);
+    background: linear-gradient( #5fbe77 50%, #fcfc51 50%);
+  }
+
+  50% {
+    transform: scale(1.3);
+    background: linear-gradient( #5fbe77 50%, #fcfc51 50%);
+  }
+
+  100% {
+    transform: scale(1);
+    background: linear-gradient(  #5fbe77 50%, #fcfc51 50%);
+  }
+}
+
+.node-common-path-vertical{
+  animation-name: CommonPath_Vertical;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+.node-common-path-vertical-hover{
+  background: linear-gradient(90deg,  #5fbe77 50%, #fcfc51 50%);
+}
+
+@keyframes CommonPath_Vertical {
+  0% {
+    transform: scale(0.5);
+    background: linear-gradient(90deg,  #5fbe77 50%, #fcfc51 50%);
+  }
+
+  50% {
+    transform: scale(1.3);
+    background: linear-gradient(90deg,  #5fbe77 50%, #fcfc51 50%);
+  }
+
+  100% {
+    transform: scale(1);
+    background: linear-gradient(90deg,  #5fbe77 50%, #fcfc51 50%);
+  }
+}

@@ -1,0 +1,68 @@
+body {
+    color: #060b26;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    background-color: #e5fde9;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.MuiPaper-root.userlist_paper {
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #eef9f0;
+}
+
+.MuiPaper-root.usertable_paper {
+    height: fit-content;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #eef9f0;
+    padding: 20px;
+}
+
+.user-form {
+    justify-content: center;
+  }
+  
+.user-form .MuiGrid-root {
+    text-align: center;
+  }
+  
+.MuiButton-root.user-form__submit-button {
+    background-color: #457474;
+    /* padding-left: 1px; */
+}
+  
+.user-form__button-grid {
+    line-height: 5;
+}
+
+.MuiTable-root.userTable {
+    margin-top: 1%;
+}
+
+.MuiTableHead-root.userTable_Head{
+    background-color: #70ccb5;
+   /* // background-color: #457474; */
+}
+
+.MuiTableCell-root.userTableCell-header{
+    font-weight: 600;
+    color: #305353;
+}
+
+.MuiTableCell-root.userTableCell-body{
+    font-weight: 300;
+}
+
+.MuiTableRow-root.userTableRow-body:hover{
+    background-color:#ddffd99d;
+    cursor: pointer;
+}
+
