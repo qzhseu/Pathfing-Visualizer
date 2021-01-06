@@ -1,4 +1,4 @@
-# team16-Mazer
+# Mazer
 Mazer is an educational online game site for users to
 familiarize themselves with the process of finding the shortest path by providing interactive maze games
 and visualizing execution of pathfinding algorithms step by step with cool animation. We designed the
