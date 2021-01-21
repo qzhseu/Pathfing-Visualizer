@@ -18,7 +18,7 @@ npm run build
 cd ..
 node server.js
 ```
-## Heroku Link
+## Website Link
 https://peaceful-ravine-90848.herokuapp.com/
 
 ## Signin and Signup Page
